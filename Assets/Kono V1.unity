@@ -68757,6 +68757,8 @@ MonoBehaviour:
     name: tops_mini_t_crystal
   - hash: 361028757
     name: tops_velma
+  - hash: -1578470524
+    name: maid
   - hash: 1441494267
     name: bottoms_shorts
   - hash: 77768536
@@ -68873,6 +68875,34 @@ MonoBehaviour:
     name: hair_purple
   - hash: -330573773
     name: hair_cotten_candy
+  - hash: -1704109195
+    name: hair_blonde_earless
+  - hash: -723102139
+    name: hair_blue_earless
+  - hash: -1724403681
+    name: hair_cotten_candy_earless
+  - hash: -632193463
+    name: hair_dark_earless
+  - hash: -576717291
+    name: hair_grey_earless
+  - hash: 1284329882
+    name: hair_normal_earless
+  - hash: 1077163305
+    name: hair_particles_earless
+  - hash: 1377708265
+    name: hair_pink_earless
+  - hash: 1405308077
+    name: hair_purple_earless
+  - hash: 1900793635
+    name: hair_rainbow_earless
+  - hash: -1139484132
+    name: hair_red_earless
+  - hash: 943163012
+    name: hair_silver_earless
+  - hash: 705334216
+    name: hair_wavy_earless
+  - hash: -596441087
+    name: hair_red
   - hash: 160609690
     name: headphones_off
   - hash: 1380933551
