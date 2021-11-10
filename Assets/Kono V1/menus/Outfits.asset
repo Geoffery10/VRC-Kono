@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: Outfits
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Particles
+    icon: {fileID: 2800000, guid: 16e0846165acaa1429417e757c53ef9b, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 11
+    style: 0
+    subMenu: {fileID: 11400000, guid: 7bbcd1a581bc5f54fb919e0c10471485, type: 2}
+    subParameters: []
+    labels: []
+  - name: Programmer
+    icon: {fileID: 2800000, guid: 99f8c934ceff3a74e831e1ca161a6796, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: e87c9cca733ed3045892fd5c59f2e356, type: 2}
+    subParameters: []
+    labels: []
+  - name: Hero
+    icon: {fileID: 2800000, guid: 8b4cc96dcc6fb484cb2b3d55c4997d99, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: e2ee1e7638133874e92398b3c25f03b3, type: 2}
+    subParameters: []
+    labels: []
+  - name: Sith
+    icon: {fileID: 2800000, guid: abed63028def3ce42b94fffafcfca335, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 1eed829d2a51da94e93f092d1bf42b61, type: 2}
+    subParameters: []
+    labels: []
+  - name: Velma
+    icon: {fileID: 2800000, guid: c13cf9df9e4ce774cbfb2141e176dc27, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 7537487de9a4dfc459c2ed569b442e25, type: 2}
+    subParameters: []
+    labels: []
+  - name: NSFW
+    icon: {fileID: 2800000, guid: 43066d8a73c579048891e3c123e252a0, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 3053313731294bd449e3778bf2c75fa1, type: 2}
+    subParameters: []
+    labels: []

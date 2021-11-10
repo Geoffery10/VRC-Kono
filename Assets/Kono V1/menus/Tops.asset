@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: Tops
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Crop Tops
+    icon: {fileID: 2800000, guid: 550b19d720fd83a4aae5d4ac0a83ea0f, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 3
+    style: 0
+    subMenu: {fileID: 11400000, guid: 9e456cf5e98aab14b9988839b12ed111, type: 2}
+    subParameters: []
+    labels: []
+  - name: T-Shirt
+    icon: {fileID: 2800000, guid: 4190cf8254f478745a7b9b37c1fa183c, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 055fca5e594a4ae4793a08d12dca4319, type: 2}
+    subParameters: []
+    labels: []
+  - name: Mini T-Shirts
+    icon: {fileID: 2800000, guid: 550b19d720fd83a4aae5d4ac0a83ea0f, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: df7dd7b287a7c304c87cf98a0c02a277, type: 2}
+    subParameters: []
+    labels: []
+  - name: Normal
+    icon: {fileID: 2800000, guid: 4190cf8254f478745a7b9b37c1fa183c, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 16
+    style: 0
+    subMenu: {fileID: 11400000, guid: ca8afc36b5ae1d34280b540f8ad31c4d, type: 2}
+    subParameters: []
+    labels: []
+  - name: Weird
+    icon: {fileID: 2800000, guid: 4190cf8254f478745a7b9b37c1fa183c, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 2
+    style: 0
+    subMenu: {fileID: 11400000, guid: d47ad903ee92c6642939dd477e223663, type: 2}
+    subParameters: []
+    labels: []
+  - name: Hoodies
+    icon: {fileID: 2800000, guid: 27656bda8ecd0d044aafdaade7caf69e, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 27877e445539b8049beba162b2af78eb, type: 2}
+    subParameters: []
+    labels: []
+  - name: Dresses
+    icon: {fileID: 2800000, guid: c13cf9df9e4ce774cbfb2141e176dc27, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: ae3eb63e013379947b783ba60c03c1e6, type: 2}
+    subParameters: []
+    labels: []

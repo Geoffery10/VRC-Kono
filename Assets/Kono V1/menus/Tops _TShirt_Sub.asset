@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: Tops _TShirt_Sub
+  m_EditorClassIdentifier: 
+  controls:
+  - name: T-Shirts (Coat)
+    icon: {fileID: 2800000, guid: 4190cf8254f478745a7b9b37c1fa183c, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 90eabc63cb0168a4888c953d0f32abf6, type: 2}
+    subParameters: []
+    labels: []
+  - name: T-Shirt (1)
+    icon: {fileID: 2800000, guid: 4190cf8254f478745a7b9b37c1fa183c, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 04fd0f43f0354e64f8199b58dbaf8339, type: 2}
+    subParameters: []
+    labels: []
+  - name: T-Shirt (2)
+    icon: {fileID: 2800000, guid: 4190cf8254f478745a7b9b37c1fa183c, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: d5830718a6d86024db2a33b5eaace5cf, type: 2}
+    subParameters: []
+    labels: []
+  - name: T-Shirt (Simplistic)
+    icon: {fileID: 2800000, guid: 4190cf8254f478745a7b9b37c1fa183c, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 2
+    style: 0
+    subMenu: {fileID: 11400000, guid: 6394608e21aca7e4783881e3f47b7bda, type: 2}
+    subParameters: []
+    labels: []

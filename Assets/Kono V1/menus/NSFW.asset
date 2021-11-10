@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: NSFW
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Shirtless
+    icon: {fileID: 2800000, guid: 4190cf8254f478745a7b9b37c1fa183c, type: 3}
+    type: 102
+    parameter:
+      name: Tops
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: ae5f6e7f9a5d0984fbeb92fd1b2d3524, type: 2}
+    subParameters: []
+    labels: []
+  - name: Bottomless
+    icon: {fileID: 2800000, guid: 8ca99bbba6af00f4c9ef3d5adaf87d4a, type: 3}
+    type: 102
+    parameter:
+      name: Bottoms
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 943892da13e31c641bc1d4d984ab8562, type: 2}
+    subParameters: []
+    labels: []
+  - name: Shoeless
+    icon: {fileID: 2800000, guid: 010f6e64313416148905cdb8e3a54f09, type: 3}
+    type: 102
+    parameter:
+      name: Shoes
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: c52f1e8d133e83b4dbdc56a379078455, type: 2}
+    subParameters: []
+    labels: []
+  - name: Underwearless
+    icon: {fileID: 2800000, guid: a457d8addb07d5649b14cfe71721cf0b, type: 3}
+    type: 102
+    parameter:
+      name: Underwear
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Breast Size
+    icon: {fileID: 2800000, guid: 43066d8a73c579048891e3c123e252a0, type: 3}
+    type: 203
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: BreastSize
+    labels: []

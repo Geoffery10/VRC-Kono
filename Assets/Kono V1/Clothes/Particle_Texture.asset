@@ -1,0 +1,250 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Particle_Texture
+  m_Shader: {fileID: 4800000, guid: 3a234010aa1482e499a4148ae75d5b3a, type: 3}
+  m_ShaderKeywords: MTOON_OUTLINE_COLOR_FIXED MTOON_OUTLINE_WIDTH_WORLD _ALPHATEST_ON
+    _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 6cb13a4799e148e4aac24ce6fead8a61, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OutlineWidthTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Ramp:
+        m_Texture: {fileID: 2800000, guid: 3281e7d3927047d42bdf0e9d5d4501ed, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReceiveShadowTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RimTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadeTexture:
+        m_Texture: {fileID: 2800000, guid: 6cb13a4799e148e4aac24ce6fead8a61, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadingGradeTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SphereAdd:
+        m_Texture: {fileID: 2800000, guid: 0d98581d2473b2841b6a3bbd6be64ad5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _UvAnimMaskTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterNoiseReflection:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterRefractionNormals:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaveOffset:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaveReflectionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha1: 0
+    - _Alpha2: 0
+    - _Alpha3: 0
+    - _AlphaToMask: 1
+    - _Bias: -0.28125
+    - _BillboardStaticLight: 0
+    - _BlendMode: 1
+    - _Bri: 0
+    - _Brightness: 1
+    - _BumpScale: 1
+    - _Con: 1
+    - _CullMode: 0
+    - _Cutoff: 0.262
+    - _DebugMode: 0
+    - _DetailNormalMapScale: 1
+    - _Displacement: 0.004
+    - _DstBlend: 0
+    - _Emission: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0
+    - _GlossyReflections: 1
+    - _Green_Despill: 1
+    - _Hardness: 10.5
+    - _IndirectLightIntensity: 0.1
+    - _Intensity: 0.8
+    - _InterAlpha: 0
+    - _InterEdge: 3
+    - _InterPow: 1
+    - _InvFade: 5
+    - _Inverse_Quality: 10.5
+    - _LightColorAttenuation: 0
+    - _MToonVersion: 38
+    - _Metallic: 0
+    - _Mode: 1
+    - _Normalnoiserefraction: 0
+    - _OcclusionStrength: 1
+    - _Opacity: 1
+    - _OutlineColorMode: 0
+    - _OutlineCullMode: 1
+    - _OutlineLightingMix: 1
+    - _OutlineScaledMaxDistance: 1
+    - _OutlineWidth: 0.08
+    - _OutlineWidthMode: 1
+    - _Parallax: 0.02
+    - _Puddle_Contrast: 1.46875
+    - _Puddle_Darkening: 0.7654321
+    - _Puddle_Sizes: 2
+    - _Queue: 3000
+    - _Rain_Scale: 70
+    - _Rain_Strength: 1
+    - _ReceiveShadowRate: 1
+    - _RefractionStrength: 0
+    - _RimFresnelPower: 1
+    - _RimLift: 0
+    - _RimLightingMix: 0
+    - _Saturation: 0.65
+    - _ShadeShift: -0.6
+    - _ShadeToony: 0
+    - _ShadingGradeRate: 1
+    - _Shininess: 0.133
+    - _Small_Displacement_Scale: 5.9
+    - _SmoothnessTextureChannel: 1
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _ToonContrast: 0.25
+    - _UVSec: 0
+    - _UvAnimRotation: 0
+    - _UvAnimScrollX: 0
+    - _UvAnimScrollY: 0
+    - _WaterFineDetailingTessalation20rec: 0.1
+    - _WaterHeightOpacityMultiplier: 0
+    - _WaterLightHeighAdjustment: 0
+    - _WaterOpacity: 0
+    - _WaterRefractionOffset: 0
+    - _WaterWarpUspeed: 0
+    - _WaterWarpVspeed: 0
+    - _WaveStrength: 0
+    - _Wind: 0.1
+    - _Wind_Scale: 1
+    - _ZWrite: 1
+    - _ZoomVal: 0
+    - _ac: 0
+    - _fT: 1
+    - _fTA: 0
+    - _fTAE: 0
+    - _interT: 1
+    - _inv1: 0
+    - _inv2: 0
+    - _inv3: 0
+    - _invAlpha1: 0
+    - _invAlpha2: 0
+    - _invAlpha3: 0
+    - _numberTex: 0
+    - _rgbc: 0
+    - _sT: 1
+    - _sTA: 0
+    - _sTAE: 0
+    - _tT: 1
+    - _tTA: 0
+    - _tTAE: 0
+    - _wateruspd: 0
+    - _watervspd: 0
+    - _wavespeedu: 0
+    - _wavespeedv: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color_1: {r: 0, g: 1, b: 0.25344753, a: 1}
+    - _Color_2: {r: 1, g: 0, b: 0.7001362, a: 1}
+    - _Color_3: {r: 0.13138334, g: 0, b: 0.7735849, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+    - _InterColor: {r: 0.7, g: 0, b: 1, a: 1}
+    - _OutlineColor: {r: 0.27450982, g: 0.09019608, b: 0.1254902, a: 1}
+    - _Pan1: {r: 0, g: 0, b: 0, a: 0}
+    - _Pan2: {r: 0, g: 0, b: 0, a: 0}
+    - _Pan3: {r: 0, g: 0, b: 0, a: 0}
+    - _RimColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Rot1: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _Rot2: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _Rot3: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _ShadeColor: {r: 0.8117647, g: 0.8392157, b: 0.96862745, a: 1}
+    - _SpecColor: {r: 0.29999998, g: 0.29999998, b: 0.29999998, a: 1}
+    - _StaticToonLight: {r: 0, g: 3, b: 0, a: 0}
+    - _Tile1: {r: 1, g: 1, b: 0, a: 0}
+    - _Tile2: {r: 1, g: 1, b: 0, a: 0}
+    - _Tile3: {r: 1, g: 1, b: 0, a: 0}
+    - _TintColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - _WaterTint: {r: 0.5, g: 0.5, b: 0.5, a: 1}

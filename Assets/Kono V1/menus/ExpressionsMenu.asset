@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: ExpressionsMenu
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Movement
+    icon: {fileID: 0}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 83e4e7f7ac92f004f8457ca32fc41670, type: 2}
+    subParameters: []
+    labels: []
+  - name: Faces
+    icon: {fileID: 2800000, guid: 48e41265a34c05d45b49ca189dc1a992, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: e13c37f00999fd54a887d2deb2271416, type: 2}
+    subParameters: []
+    labels: []
+  - name: Clothes
+    icon: {fileID: 2800000, guid: 4190cf8254f478745a7b9b37c1fa183c, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 7a0f9798b1edb0e408b2140d5485c770, type: 2}
+    subParameters: []
+    labels: []
+  - name: Size
+    icon: {fileID: 2800000, guid: 43066d8a73c579048891e3c123e252a0, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: ddff8ad12c2b87246999da5b701f9a81, type: 2}
+    subParameters: []
+    labels: []

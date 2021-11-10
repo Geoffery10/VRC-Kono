@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: Accessories
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Ring
+    icon: {fileID: 2800000, guid: 0539e25eba635ce41a401580788a2c77, type: 3}
+    type: 102
+    parameter:
+      name: Ring
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Card
+    icon: {fileID: 2800000, guid: d46a3bed5f2ae6848bf5e739acb2a53b, type: 3}
+    type: 102
+    parameter:
+      name: Card
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Eyes
+    icon: {fileID: 2800000, guid: d02d7196b5cc79840913a362aca3322e, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: d020b5b645579e047a5ebbb7ecfec74a, type: 2}
+    subParameters: []
+    labels: []
+  - name: Hats & Masks
+    icon: {fileID: 2800000, guid: 0ee41a24723d06c46a759b0e4c16565d, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 78403804fc6a47b4ebaa7cd799c4b217, type: 2}
+    subParameters: []
+    labels: []
+  - name: Yoyos
+    icon: {fileID: 2800000, guid: 497a748b5ec6c7b488f34f84ece04c51, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 90c9489e2caed034397589164700159e, type: 2}
+    subParameters: []
+    labels: []
+  - name: Weapons
+    icon: {fileID: 2800000, guid: abed63028def3ce42b94fffafcfca335, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 7daeb74e67d36ae46a7d984b36e07ef3, type: 2}
+    subParameters: []
+    labels: []

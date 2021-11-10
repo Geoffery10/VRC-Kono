@@ -1,0 +1,411 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: eyes_special
+  m_Shader: {fileID: 4800000, guid: 0431a30f2db25c4428f8f488b6eda956, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ColorMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Distortion:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EffectMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Ramp:
+        m_Texture: {fileID: 2800000, guid: 3281e7d3927047d42bdf0e9d5d4501ed, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ScreenOverlayTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShakeTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Small_Ripples_Texture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpriteSheet:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ThirdTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterNoiseReflection:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterRefractionNormals:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Wave:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaveOffset:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaveReflectionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - iChannel0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - iChannel1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _3DRotation: 0
+    - _Aberration: 0
+    - _Alpha1: 0
+    - _Alpha2: 0
+    - _Alpha3: 0
+    - _BLUR: 0
+    - _BLURFO: 0
+    - _BillboardStaticLight: 0
+    - _BlobDepth: 7.22
+    - _BlobMoveSpeed: 4
+    - _BlobSaturation: 0.8
+    - _BlobScale: 4.26
+    - _BlobValue: 0.4
+    - _Bri: 0
+    - _Brightness: 1
+    - _BumpScale: 1
+    - _CIFO: 0
+    - _CINV: 0
+    - _CLAMPOUT: 0
+    - _Channel: 0
+    - _CircleNbr: 60
+    - _Columns: 0
+    - _Con: 1
+    - _Cutoff: 0.5
+    - _DarkMatter: 0.3
+    - _Darkmatter: 25
+    - _DarkmatterContrastMultiplier: 1
+    - _Density: 5
+    - _DetailNormalMapScale: 1
+    - _Displacement: 0.3125
+    - _DistFading: 0.73
+    - _Distfading: 68
+    - _DistortionPower: 0.1
+    - _DstBlend: 0
+    - _EffectSize: 1
+    - _EffectSpeed: 1
+    - _Emission: 0
+    - _FinalPower: 1
+    - _Formuparam: 0.53
+    - _FresnelExp: 2
+    - _FuckeyZoom: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Grayscale: 0
+    - _Grid: 30
+    - _HighFOVboiye: 0
+    - _HueScale: 2
+    - _HueSpeed: 1
+    - _IndividualColors: 0
+    - _Intensity: 0
+    - _Intensity2: 0
+    - _InterAlpha: 0
+    - _InterEdge: 3
+    - _InterPow: 1
+    - _InvFade: 10
+    - _Inverse_Quality: 2
+    - _Iterations: 17
+    - _Large_Ripples_Scale: 4.4
+    - _LightIntensity: 0.5
+    - _MG: 0
+    - _MGS1: 0
+    - _MGS2: 0
+    - _Metallic: 0
+    - _Mix_Amount: 1
+    - _Mode: 0
+    - _Normal_Height: 0
+    - _Normalnoiserefraction: 0
+    - _OcclusionStrength: 1
+    - _OffsetAdd: 0
+    - _OffsetPower: 0.3333333
+    - _OrigineX: 0.5
+    - _OrigineY: 0.5
+    - _OutlineMode: 0
+    - _OutlineWidth: 1
+    - _Outline_Thickness: 0.01230769
+    - _OverallAlpha: 1
+    - _Panner: 0
+    - _Parallax: 0.02
+    - _Queue: 3000
+    - _Reflect: 0
+    - _RefractionStrength: 0
+    - _RemoveDiag: 0
+    - _Rim_Thinness: 2.68
+    - _RotationAngle: 0
+    - _Rows: 0
+    - _SSS_Fringing: 0.1428572
+    - _SSS_Scale: 0.0643739
+    - _Saturation: 1
+    - _Scale_GLMax: 20
+    - _Scale_GLMin: 15
+    - _ScanlineDelay: 1.5
+    - _ScanlineHeight: 0
+    - _ScanlinePower: 1
+    - _ScanlineVelocity: 1
+    - _ScrollSpeed: 1
+    - _Seed: 0
+    - _Shadow: 0.4
+    - _Shake: 1
+    - _ShellDistance: 0.03869732
+    - _Shininess: 0.5618154
+    - _Small_Displacement_Scale: 5.9
+    - _Smoothness: 0
+    - _SmoothnessTextureChannel: 0
+    - _SoundData: 0
+    - _SpecularHighlights: 1
+    - _Speed: 60
+    - _SpeedMax: 20
+    - _SpeedMin: 2
+    - _SrcBlend: 1
+    - _StarLayers: 2
+    - _StepSize: 0.1
+    - _Steps: 20
+    - _SubScanlineFrequency: 10
+    - _SubScanlineHeight: 0
+    - _SubScanlinePower: 1
+    - _SubScanlineVelocity: 1
+    - _Tile: 0.85
+    - _ToonContrast: 0.25
+    - _TotalTiles: 0
+    - _TransparencyCleanup: 1
+    - _UVOffset: 0.5
+    - _UVSec: 0
+    - _Volsteps: 17
+    - _WaterFineDetailingTessalation20rec: 0.1
+    - _WaterHeightOpacityMultiplier: 0
+    - _WaterLightHeighAdjustment: 0
+    - _WaterOpacity: 0
+    - _WaterRefractionOffset: 0
+    - _WaterWarpUspeed: 0
+    - _WaterWarpVspeed: 0
+    - _Water_Density: 4.074074
+    - _WaveStrength: 0
+    - _Wave_Scale: 5.92
+    - _Wave_Strength: 0.02066116
+    - _Width: 0.25
+    - _Wind: 0.1
+    - _Wind_Scale: 1
+    - _WireframeVal: 0.05
+    - _XOffset: 0
+    - _YOffset: 0
+    - _ZWrite: 1
+    - _Zoom: 0
+    - __dirty: 1
+    - _ac: 0
+    - _blackout: 0
+    - _blackvalue: 0
+    - _blueinv: 1
+    - _bluevalue: 0
+    - _blurfactor: 1
+    - _despacito2: 0
+    - _despacito3: 0
+    - _despacito4: 0
+    - _despacito5: 0
+    - _fT: 1
+    - _fTA: 0
+    - _fTAE: 0
+    - _greeninv: 1
+    - _greenvalue: 0
+    - _intensity: 0
+    - _intensity2: 0
+    - _interT: 1
+    - _inv1: 0
+    - _inv2: 0
+    - _inv3: 0
+    - _invAlpha1: 0
+    - _invAlpha2: 0
+    - _invAlpha3: 0
+    - _mag: 21.6
+    - _max: 3
+    - _min: 0
+    - _niggervalues: 0
+    - _node_3352: 2
+    - _node_7850: 2
+    - _node_8270: 1
+    - _numberTex: 0
+    - _outline_tint: 0.5
+    - _outline_width: 0.2
+    - _redinv: 1
+    - _redvalue: 0.3
+    - _rgbc: 0
+    - _sT: 1
+    - _sTA: 0
+    - _sTAE: 0
+    - _slider: 16
+    - _stars1_rainbow: 0
+    - _stars1_rb_speed: 5
+    - _stars1_size: 10
+    - _stars1_speed: 5
+    - _stars1_uniform: 0
+    - _stars2_rainbow: 0
+    - _stars2_rb_speed: 5
+    - _stars2_size: 3
+    - _stars2_speed: 5
+    - _stars2_uniform: 0
+    - _stars3_rainbow: 0
+    - _stars3_rb_speed: 5
+    - _stars3_size: 1
+    - _stars3_speed: 5
+    - _stars3_uniform: 0
+    - _tT: 1
+    - _tTA: 0
+    - _tTAE: 0
+    - _wateruspd: 0
+    - _watervspd: 0
+    - _wavespeedu: 0
+    - _wavespeedv: 0
+    - _xper: 1
+    - _yper: 1
+    m_Colors:
+    - _BackColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Background: {r: 0, g: 0, b: 0, a: 1}
+    - _BottomLight: {r: 0, g: 0, b: 1, a: 1}
+    - _Center: {r: 0, g: 0, b: 0.5, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color_1: {r: 0.11764706, g: 0, b: 1, a: 1}
+    - _Color_2: {r: 0, g: 1, b: 0, a: 1}
+    - _Color_3: {r: 0.8627452, g: 0, b: 1, a: 1}
+    - _Color_A: {r: 0, g: 0.08088239, b: 0.21323526, a: 1}
+    - _Color_B: {r: 1, g: 0.31476337, b: 0.095588185, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FireColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - _FrontColor: {r: 1, g: 1, b: 1, a: 1}
+    - _GemColor1: {r: 0, g: 0, b: 0, a: 1}
+    - _GemColor2: {r: 1, g: 1, b: 1, a: 1}
+    - _InterColor: {r: 0.7, g: 0, b: 1, a: 1}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Outline_Color: {r: 1, g: 0.6685237, b: 0, a: 1}
+    - _OverlayColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Pan1: {r: 0, g: 0, b: 0, a: 0}
+    - _Pan2: {r: 0, g: 0, b: 0, a: 0}
+    - _Pan3: {r: 0, g: 0, b: 0, a: 0}
+    - _Rot1: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _Rot2: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _Rot3: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _Rotation: {r: 0, g: 0, b: 0, a: 0.1}
+    - _SSS_Color: {r: 1, g: 0.29999998, b: 0.29999998, a: 1}
+    - _ScanlineColor: {r: 0.7, g: 0.7, b: 1, a: 1}
+    - _Scroll: {r: 3, g: 1, b: 0.6, a: 0.1}
+    - _SpecColor: {r: 0.29999998, g: 0.29999998, b: 0.29999998, a: 1}
+    - _StarNestMainColor: {r: 1, g: 1, b: 1, a: 1}
+    - _StaticToonLight: {r: 0, g: 3, b: 0, a: 0}
+    - _SubScanlineColor: {r: 0.7, g: 0.7, b: 1, a: 1}
+    - _Tile1: {r: 1, g: 1, b: 0, a: 0}
+    - _Tile2: {r: 1, g: 1, b: 0, a: 0}
+    - _Tile3: {r: 1, g: 1, b: 0, a: 0}
+    - _TintColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - _TopLight: {r: 1, g: 1, b: 0, a: 1}
+    - _Underwater_Color: {r: 0.666144, g: 0.7677045, b: 0.81617653, a: 1}
+    - _WaterTint: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _iMouse: {r: 0, g: 0, b: 0, a: 0}
+    - _outline_color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _stars1_c1: {r: 1, g: 1, b: 1, a: 1}
+    - _stars1_c2: {r: 1, g: 1, b: 1, a: 1}
+    - _stars1_c3: {r: 1, g: 1, b: 1, a: 1}
+    - _stars1_offset: {r: 0, g: 0, b: 0, a: 0}
+    - _stars2_c1: {r: 1, g: 1, b: 1, a: 1}
+    - _stars2_c2: {r: 1, g: 1, b: 1, a: 1}
+    - _stars2_c3: {r: 1, g: 1, b: 1, a: 1}
+    - _stars2_offset: {r: 0, g: 0, b: 1, a: 0}
+    - _stars3_c1: {r: 1, g: 1, b: 1, a: 1}
+    - _stars3_c2: {r: 1, g: 1, b: 1, a: 1}
+    - _stars3_c3: {r: 1, g: 1, b: 1, a: 1}
+    - _stars3_offset: {r: 0, g: 0, b: 2, a: 0}
+    - time: {r: 1, g: 1, b: 1, a: 1}
