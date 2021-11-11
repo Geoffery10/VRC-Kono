@@ -63854,6 +63854,8 @@ MonoBehaviour:
     name: tops_velma
   - hash: -1578470524
     name: maid
+  - hash: -2082604309
+    name: tops_hoodie_garfield
   - hash: 1441494267
     name: bottoms_shorts
   - hash: 77768536
@@ -111059,7 +111061,7 @@ SkinnedMeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8342014166692977591}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
