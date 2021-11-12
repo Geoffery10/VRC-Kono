@@ -110,7 +110,7 @@ Material:
     - _BlendMode: 1
     - _BumpScale: 1
     - _Clip: 0.5
-    - _Cull: 2
+    - _Cull: 0
     - _CullMode: 0
     - _Cutoff: 0.5
     - _DebugMode: 0
@@ -183,7 +183,7 @@ Material:
     - m_mainOptions: 1
     - m_matcapOptions: 0
     - m_metallicOptions: 0
-    - m_miscOptions: 0
+    - m_miscOptions: 1
     - m_outlineOptions: 0
     - m_rimLightOptions: 0
     - m_specularHighlightsOptions: 0
