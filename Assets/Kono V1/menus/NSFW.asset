@@ -54,3 +54,13 @@ MonoBehaviour:
     subParameters:
     - name: BreastSize
     labels: []
+  - name: Breast Off
+    icon: {fileID: 2800000, guid: 68228ffbfbd9d2d4e81f1ec7d784554e, type: 3}
+    type: 102
+    parameter:
+      name: BreastSize
+    value: -1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

@@ -68765,6 +68765,8 @@ MonoBehaviour:
     name: tops_velma
   - hash: -1578470524
     name: maid
+  - hash: -2082604309
+    name: tops_hoodie_garfield
   - hash: 1441494267
     name: bottoms_shorts
   - hash: 77768536
@@ -68835,6 +68837,10 @@ MonoBehaviour:
     name: underwear_velma
   - hash: -1634647492
     name: underwear_velma_clipped
+  - hash: 845633081
+    name: underwear_onepiece_clipped
+  - hash: -794914947
+    name: underwear_onepiece
   - hash: 504868377
     name: shoes_converse
   - hash: -1919471820
@@ -84096,6 +84102,10 @@ MonoBehaviour:
     name: tops_mini_t_crystal
   - hash: 361028757
     name: tops_velma
+  - hash: -1578470524
+    name: maid
+  - hash: -2082604309
+    name: tops_hoodie_garfield
   - hash: 1441494267
     name: bottoms_shorts
   - hash: 77768536
@@ -84166,6 +84176,10 @@ MonoBehaviour:
     name: underwear_velma
   - hash: -1634647492
     name: underwear_velma_clipped
+  - hash: 845633081
+    name: underwear_onepiece_clipped
+  - hash: -794914947
+    name: underwear_onepiece
   - hash: 504868377
     name: shoes_converse
   - hash: -1919471820
@@ -84212,6 +84226,34 @@ MonoBehaviour:
     name: hair_purple
   - hash: -330573773
     name: hair_cotten_candy
+  - hash: -1704109195
+    name: hair_blonde_earless
+  - hash: -723102139
+    name: hair_blue_earless
+  - hash: -1724403681
+    name: hair_cotten_candy_earless
+  - hash: -632193463
+    name: hair_dark_earless
+  - hash: -576717291
+    name: hair_grey_earless
+  - hash: 1284329882
+    name: hair_normal_earless
+  - hash: 1077163305
+    name: hair_particles_earless
+  - hash: 1377708265
+    name: hair_pink_earless
+  - hash: 1405308077
+    name: hair_purple_earless
+  - hash: 1900793635
+    name: hair_rainbow_earless
+  - hash: -1139484132
+    name: hair_red_earless
+  - hash: 943163012
+    name: hair_silver_earless
+  - hash: 705334216
+    name: hair_wavy_earless
+  - hash: -596441087
+    name: hair_red
   - hash: 160609690
     name: headphones_off
   - hash: 1380933551
@@ -91845,7 +91887,7 @@ SkinnedMeshRenderer:
   - {fileID: 2100000, guid: b9f97438042c03449a959cc95fb93313, type: 2}
   - {fileID: 2100000, guid: 28c1fe5648411f54a8dd7003be42d3c7, type: 2}
   - {fileID: 2100000, guid: 55902468ac42a584687c0345c0faad83, type: 2}
-  - {fileID: 2100000, guid: fa28a6c54dec0db45afb69846fc96603, type: 2}
+  - {fileID: 2100000, guid: a6f6d81306568ff4bb87d3954e1d078f, type: 2}
   - {fileID: 2100000, guid: ef672c7e81e791a43b53e61aba2df028, type: 2}
   - {fileID: 2100000, guid: 8302a5a16c7d798499cb476789e7da70, type: 2}
   m_StaticBatchInfo:
@@ -105888,7 +105930,7 @@ SkinnedMeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5936462033991749043}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -111065,7 +111107,7 @@ SkinnedMeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8342014166692977591}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
