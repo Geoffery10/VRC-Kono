@@ -83,3 +83,13 @@ MonoBehaviour:
     subMenu: {fileID: 0}
     subParameters: []
     labels: []
+  - name: Kobold
+    icon: {fileID: 2800000, guid: 01e6b2eac66528d41b05fc653df46aab, type: 3}
+    type: 102
+    parameter:
+      name: Tops
+    value: 56
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
