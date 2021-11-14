@@ -64534,7 +64534,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Root: {fileID: 747969233186692190}
-  m_UpdateRate: 50
+  m_UpdateRate: 30
   m_UpdateMode: 0
   m_Damping: 0.13
   m_DampingDistrib:
