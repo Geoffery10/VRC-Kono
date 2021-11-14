@@ -64046,6 +64046,8 @@ MonoBehaviour:
     name: eyes_tiny
   - hash: -767350116
     name: eyes_sith
+  - hash: -1566421032
+    name: eyes_snake_red
   - hash: 1801620568
     name: Blend Tree
   - hash: -376221697
@@ -68998,6 +69000,8 @@ MonoBehaviour:
     name: eyes_tiny
   - hash: -767350116
     name: eyes_sith
+  - hash: -1566421032
+    name: eyes_snake_red
   - hash: 1801620568
     name: Blend Tree
   - hash: -376221697
@@ -109439,7 +109443,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132147744794241}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 9000000, guid: c26b0f38c1752854d8ffe4ab02793ef4, type: 3}
   m_Controller: {fileID: 9100000, guid: c4578ccbdb60ae840a42db12c6653465, type: 2}
   m_CullingMode: 1
