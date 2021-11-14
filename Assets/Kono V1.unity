@@ -82931,9 +82931,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2092241316}
-  m_LocalRotation: {x: 0.009897223, y: -0.0000002387155, z: -0.00000027693724, w: -0.99995106}
-  m_LocalPosition: {x: 0, y: 0.048299283, z: 0.055099994}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0.08038832, y: -0.00000026273483, z: -0.00000025426306, w: -0.99676365}
+  m_LocalPosition: {x: -0, y: 0.0568, z: 0.0477}
+  m_LocalScale: {x: 1.2504239, y: 1.1519818, z: 1.2884123}
   m_Children:
   - {fileID: 1126701109}
   - {fileID: 1760428155}
@@ -82941,7 +82941,7 @@ Transform:
   - {fileID: 155120400}
   m_Father: {fileID: 747969233186692190}
   m_RootOrder: 26
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 9.222, y: 0, z: 0}
 --- !u!1 &2101706362
 GameObject:
   m_ObjectHideFlags: 0
@@ -89012,6 +89012,7 @@ GameObject:
   - component: {fileID: 5866666020591590270}
   - component: {fileID: 1459087119}
   - component: {fileID: 1459087120}
+  - component: {fileID: 919132148332157887}
   m_Layer: 0
   m_Name: 'Kono V1 '
   m_TagString: Untagged
@@ -89019,6 +89020,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &919132148332157887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148332157886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 229740497, guid: 4ecd63eff847044b68db9453ce219299, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  contentType: 0
 --- !u!4 &936796076307282053
 Transform:
   m_ObjectHideFlags: 0
