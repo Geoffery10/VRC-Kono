@@ -13523,32 +13523,6 @@ Transform:
   m_Father: {fileID: 1946781378}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1102 &287624979
-AnimatorState:
-  serializedVersion: 6
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: recorder
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions: []
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 0
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 36b3270b384755e478cba5083e60b64e, type: 2}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
 --- !u!1 &290864872
 GameObject:
   m_ObjectHideFlags: 0
@@ -31432,28 +31406,32 @@ Transform:
   m_Father: {fileID: 1801760604}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1107 &639724846
-AnimatorStateMachine:
+--- !u!1102 &646782162
+AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Base
-  m_ChildStates:
-  - serializedVersion: 1
-    m_State: {fileID: 287624979}
-    m_Position: {x: 200, y: 0, z: 0}
-  m_ChildStateMachines: []
-  m_AnyStateTransitions: []
-  m_EntryTransitions: []
-  m_StateMachineTransitions: {}
+  m_Name: recorder
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
   m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: 50, y: 20, z: 0}
-  m_EntryPosition: {x: 50, y: 120, z: 0}
-  m_ExitPosition: {x: 800, y: 120, z: 0}
-  m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
-  m_DefaultState: {fileID: 287624979}
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 0
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 05e142fbeea66f54c80a90ce068a8ecc, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!1 &650651183
 GameObject:
   m_ObjectHideFlags: 0
@@ -48323,28 +48301,6 @@ Transform:
   m_Father: {fileID: 1832377569}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!91 &871223014
-AnimatorController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Fake Temporary Controller__DoNotModify
-  serializedVersion: 5
-  m_AnimatorParameters: []
-  m_AnimatorLayers:
-  - serializedVersion: 5
-    m_Name: Base
-    m_StateMachine: {fileID: 639724846}
-    m_Mask: {fileID: 0}
-    m_Motions: []
-    m_Behaviours: []
-    m_BlendingMode: 0
-    m_SyncedLayerIndex: -1
-    m_DefaultWeight: 0
-    m_IKPass: 0
-    m_SyncedLayerAffectsTiming: 0
-    m_Controller: {fileID: 871223014}
 --- !u!1 &871449839
 GameObject:
   m_ObjectHideFlags: 0
@@ -63267,6 +63223,28 @@ MonoBehaviour:
   m_DistantDisable: 0
   m_ReferenceObject: {fileID: 0}
   m_DistanceToObject: 20
+--- !u!1107 &1426204742
+AnimatorStateMachine:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Base
+  m_ChildStates:
+  - serializedVersion: 1
+    m_State: {fileID: 646782162}
+    m_Position: {x: 200, y: 0, z: 0}
+  m_ChildStateMachines: []
+  m_AnyStateTransitions: []
+  m_EntryTransitions: []
+  m_StateMachineTransitions: {}
+  m_StateMachineBehaviours: []
+  m_AnyStatePosition: {x: 50, y: 20, z: 0}
+  m_EntryPosition: {x: 50, y: 120, z: 0}
+  m_ExitPosition: {x: 800, y: 120, z: 0}
+  m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
+  m_DefaultState: {fileID: 646782162}
 --- !u!1 &1444254447
 GameObject:
   m_ObjectHideFlags: 0
@@ -63728,6 +63706,18 @@ MonoBehaviour:
     name: peace_face
   - hash: 1916925603
     name: Idle 0
+  - hash: 580887859
+    name: face_pout
+  - hash: 216524688
+    name: face_odd
+  - hash: -523599976
+    name: eye_wink
+  - hash: 1137791853
+    name: eye_closed_smile
+  - hash: -481738992
+    name: eye_angry
+  - hash: 1571735688
+    name: shock
   - hash: 1922419890
     name: Idle
   - hash: -1431550851
@@ -64068,6 +64058,8 @@ MonoBehaviour:
     name: Weap_Bat
   - hash: -60674479
     name: Weap_Bat_Horny
+  - hash: 1177170829
+    name: Business_Card
   - hash: 1756682920
     name: Blend Tree
   autoFootsteps: 1
@@ -79862,7 +79854,7 @@ Animator:
   m_GameObject: {fileID: 1905296458}
   m_Enabled: 0
   m_Avatar: {fileID: 9000000, guid: c26b0f38c1752854d8ffe4ab02793ef4, type: 3}
-  m_Controller: {fileID: 871223014}
+  m_Controller: {fileID: 2048428179}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -82647,6 +82639,28 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.000000029802322, y: 0.2153257, z: -0.001003705}
     m_Extent: {x: 0.5524608, y: 0.35600042, z: 0.22081912}
   m_DirtyAABB: 0
+--- !u!91 &2048428179
+AnimatorController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Fake Temporary Controller__DoNotModify
+  serializedVersion: 5
+  m_AnimatorParameters: []
+  m_AnimatorLayers:
+  - serializedVersion: 5
+    m_Name: Base
+    m_StateMachine: {fileID: 1426204742}
+    m_Mask: {fileID: 0}
+    m_Motions: []
+    m_Behaviours: []
+    m_BlendingMode: 0
+    m_SyncedLayerIndex: -1
+    m_DefaultWeight: 0
+    m_IKPass: 0
+    m_SyncedLayerAffectsTiming: 0
+    m_Controller: {fileID: 2048428179}
 --- !u!1 &2055347711
 GameObject:
   m_ObjectHideFlags: 0
@@ -89018,7 +89032,6 @@ GameObject:
   - component: {fileID: 5866666020591590270}
   - component: {fileID: 1459087119}
   - component: {fileID: 1459087120}
-  - component: {fileID: 919132148332157887}
   m_Layer: 0
   m_Name: 'Kono V1 '
   m_TagString: Untagged
@@ -89026,19 +89039,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &919132148332157887
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132148332157886}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 229740497, guid: 4ecd63eff847044b68db9453ce219299, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  contentType: 0
 --- !u!4 &936796076307282053
 Transform:
   m_ObjectHideFlags: 0

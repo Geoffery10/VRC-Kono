@@ -27,8 +27,8 @@ MonoBehaviour:
     icon: {fileID: 2800000, guid: d46a3bed5f2ae6848bf5e739acb2a53b, type: 3}
     type: 102
     parameter:
-      name: Card
-    value: 1
+      name: Weapon
+    value: 4
     style: 0
     subMenu: {fileID: 0}
     subParameters: []

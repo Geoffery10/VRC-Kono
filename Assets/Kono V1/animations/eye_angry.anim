@@ -31,7 +31,7 @@ AnimationClip:
         outWeight: 0
       - serializedVersion: 3
         time: 0.016666668
-        value: 0
+        value: 100
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -41,7 +41,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: blendShape.Face.M_F00_000_00_Fcl_ALL_Angry
+    attribute: blendShape.Fcl_EYE_Fun
     path: Body
     classID: 137
     script: {fileID: 0}
@@ -69,7 +69,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: blendShape.Fcl_BRW_Angry
+    attribute: blendShape.Fcl_EYE_Sorrow
     path: Body
     classID: 137
     script: {fileID: 0}
@@ -125,7 +125,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: blendShape.Fcl_EYE_Angry
+    attribute: blendShape.Fcl_BRW_Angry
     path: Body
     classID: 137
     script: {fileID: 0}
@@ -139,14 +139,14 @@ AnimationClip:
     genericBindings:
     - serializedVersion: 2
       path: 2073732236
-      attribute: 649577841
+      attribute: 3949049179
       script: {fileID: 0}
       typeID: 137
       customType: 20
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 2073732236
-      attribute: 1693328279
+      attribute: 609929342
       script: {fileID: 0}
       typeID: 137
       customType: 20
@@ -160,7 +160,7 @@ AnimationClip:
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 2073732236
-      attribute: 2913263599
+      attribute: 1693328279
       script: {fileID: 0}
       typeID: 137
       customType: 20
@@ -201,7 +201,7 @@ AnimationClip:
         outWeight: 0
       - serializedVersion: 3
         time: 0.016666668
-        value: 0
+        value: 100
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -211,7 +211,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: blendShape.Face.M_F00_000_00_Fcl_ALL_Angry
+    attribute: blendShape.Fcl_EYE_Fun
     path: Body
     classID: 137
     script: {fileID: 0}
@@ -239,7 +239,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: blendShape.Fcl_BRW_Angry
+    attribute: blendShape.Fcl_EYE_Sorrow
     path: Body
     classID: 137
     script: {fileID: 0}
@@ -295,7 +295,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: blendShape.Fcl_EYE_Angry
+    attribute: blendShape.Fcl_BRW_Angry
     path: Body
     classID: 137
     script: {fileID: 0}

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Face
   m_EditorClassIdentifier: 
   controls:
-  - name: Faces
-    icon: {fileID: 2800000, guid: e561d0406779ab948b7f155498d101ee, type: 3}
+  - name: Gestures
+    icon: {fileID: 2800000, guid: 5acca5d9b1a37724880f1a1dc1bc54d3, type: 3}
     type: 102
     parameter:
       name: Faces

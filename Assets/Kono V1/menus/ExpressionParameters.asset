@@ -36,7 +36,7 @@ MonoBehaviour:
   - name: Faces
     valueType: 2
     saved: 1
-    defaultValue: 0
+    defaultValue: 1
   - name: Tops
     valueType: 0
     saved: 1
