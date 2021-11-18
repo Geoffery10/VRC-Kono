@@ -64,7 +64,7 @@ Material:
     - _AlphaToMask: 0
     - _BlendMode: 2
     - _BumpScale: 1
-    - _CullMode: 2
+    - _CullMode: 1
     - _Cutoff: 0.5
     - _DebugMode: 0
     - _DstBlend: 10
@@ -72,7 +72,7 @@ Material:
     - _LightColorAttenuation: 0
     - _MToonVersion: 38
     - _OutlineColorMode: 1
-    - _OutlineCullMode: 1
+    - _OutlineCullMode: 2
     - _OutlineLightingMix: 1
     - _OutlineScaledMaxDistance: 1
     - _OutlineWidth: 0.165
@@ -90,8 +90,8 @@ Material:
     - _UvAnimScrollY: 0
     - _ZWrite: 0
     m_Colors:
-    - _Color: {r: 0.9019608, g: 0.84313726, b: 0.6, a: 1}
-    - _EmissionColor: {r: 0.12941177, g: 0.06666667, b: 0.078431375, a: 1}
+    - _Color: {r: 0.9019608, g: 0.8431372, b: 0.6, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _RimColor: {r: 0, g: 0, b: 0, a: 1}
-    - _ShadeColor: {r: 0.9019608, g: 0.84313726, b: 0.6, a: 1}
+    - _ShadeColor: {r: 0.5176471, g: 0.43137255, b: 0.07058824, a: 1}
