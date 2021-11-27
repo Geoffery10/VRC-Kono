@@ -13,6 +13,16 @@ MonoBehaviour:
   m_Name: ExpressionsMenu
   m_EditorClassIdentifier: 
   controls:
+  - name: Disable FBT Locomotion
+    icon: {fileID: 2800000, guid: 57ba74bc94a617a41a0bf9349c9cb35f, type: 3}
+    type: 102
+    parameter:
+      name: DisLocomotion
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
   - name: Movement
     icon: {fileID: 0}
     type: 103
