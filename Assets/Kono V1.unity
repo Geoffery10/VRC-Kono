@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.17276844, g: 0.21589246, b: 0.2978263, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -63562,9 +63562,10 @@ MonoBehaviour:
   baseAnimationLayers:
   - isEnabled: 0
     type: 0
-    animatorController: {fileID: 0}
+    animatorController: {fileID: 9100000, guid: 0a8a6303bdd8855419af168645e54ed0,
+      type: 2}
     mask: {fileID: 0}
-    isDefault: 1
+    isDefault: 0
   - isEnabled: 0
     type: 2
     animatorController: {fileID: 0}
@@ -64063,7 +64064,7 @@ MonoBehaviour:
   - hash: 1756682920
     name: Blend Tree
   autoFootsteps: 1
-  autoLocomotion: 1
+  autoLocomotion: 0
 --- !u!114 &1459087121
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -89032,7 +89033,6 @@ GameObject:
   - component: {fileID: 5866666020591590270}
   - component: {fileID: 1459087119}
   - component: {fileID: 1459087120}
-  - component: {fileID: 919132148332157887}
   m_Layer: 0
   m_Name: 'Kono V1 '
   m_TagString: Untagged
@@ -89040,19 +89040,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &919132148332157887
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132148332157886}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 229740497, guid: 4ecd63eff847044b68db9453ce219299, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  contentType: 0
 --- !u!4 &936796076307282053
 Transform:
   m_ObjectHideFlags: 0
