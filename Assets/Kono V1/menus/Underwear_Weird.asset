@@ -53,16 +53,6 @@ MonoBehaviour:
     subMenu: {fileID: 0}
     subParameters: []
     labels: []
-  - name: One Piece
-    icon: {fileID: 2800000, guid: a9e8f6fa08aed924bba7204bba785d71, type: 3}
-    type: 102
-    parameter:
-      name: Underwear
-    value: 16
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
   - name: Sarashi
     icon: {fileID: 2800000, guid: a457d8addb07d5649b14cfe71721cf0b, type: 3}
     type: 102
@@ -89,6 +79,16 @@ MonoBehaviour:
     parameter:
       name: Underwear
     value: 14
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Velma
+    icon: {fileID: 2800000, guid: a457d8addb07d5649b14cfe71721cf0b, type: 3}
+    type: 102
+    parameter:
+      name: Underwear
+    value: 15
     style: 0
     subMenu: {fileID: 0}
     subParameters: []

@@ -63891,6 +63891,8 @@ MonoBehaviour:
     name: dress_crop_turtle_brown
   - hash: 971192740
     name: tops_tshirt_kobold
+  - hash: -274962004
+    name: tops_kitty_undies
   - hash: 1441494267
     name: bottoms_shorts
   - hash: 77768536
@@ -63967,6 +63969,8 @@ MonoBehaviour:
     name: underwear_onepiece_clipped
   - hash: -794914947
     name: underwear_onepiece
+  - hash: 1961308089
+    name: underwear_kitty_undies
   - hash: 504868377
     name: shoes_converse
   - hash: -1919471820
@@ -92029,7 +92033,7 @@ SkinnedMeshRenderer:
   - {fileID: 2100000, guid: b9f97438042c03449a959cc95fb93313, type: 2}
   - {fileID: 2100000, guid: 28c1fe5648411f54a8dd7003be42d3c7, type: 2}
   - {fileID: 2100000, guid: 55902468ac42a584687c0345c0faad83, type: 2}
-  - {fileID: 2100000, guid: a6f6d81306568ff4bb87d3954e1d078f, type: 2}
+  - {fileID: 2100000, guid: 2b166910ffeeacb47bee3491a0a9475d, type: 2}
   - {fileID: 2100000, guid: ef672c7e81e791a43b53e61aba2df028, type: 2}
   - {fileID: 2100000, guid: 8302a5a16c7d798499cb476789e7da70, type: 2}
   m_StaticBatchInfo:
@@ -107138,7 +107142,7 @@ SkinnedMeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2258142498056244892}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -109941,7 +109945,7 @@ SkinnedMeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3973543466066966323}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -109952,7 +109956,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1c8c982edbad2b5498f396c6fcb29652, type: 2}
+  - {fileID: 2100000, guid: 3570bdcf1c5390743b01d2a50192c95f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

@@ -63,26 +63,6 @@ MonoBehaviour:
     subMenu: {fileID: 0}
     subParameters: []
     labels: []
-  - name: Fishnet
-    icon: {fileID: 2800000, guid: a457d8addb07d5649b14cfe71721cf0b, type: 3}
-    type: 102
-    parameter:
-      name: Underwear
-    value: 11
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: Velma
-    icon: {fileID: 2800000, guid: a457d8addb07d5649b14cfe71721cf0b, type: 3}
-    type: 102
-    parameter:
-      name: Underwear
-    value: 15
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
   - name: Weird
     icon: {fileID: 2800000, guid: a457d8addb07d5649b14cfe71721cf0b, type: 3}
     type: 103
@@ -91,5 +71,15 @@ MonoBehaviour:
     value: 1
     style: 0
     subMenu: {fileID: 11400000, guid: 572eb4ee59d57204596161753a70fa3f, type: 2}
+    subParameters: []
+    labels: []
+  - name: Sexy
+    icon: {fileID: 2800000, guid: 9da423861ad64af4189cb9582986a02b, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 7ae82ca4c0586bb499f81826d1dbbe1a, type: 2}
     subParameters: []
     labels: []
