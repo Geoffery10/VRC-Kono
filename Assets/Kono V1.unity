@@ -64353,6 +64353,8 @@ MonoBehaviour:
   - {fileID: 7604284636979320143}
   - {fileID: 1317669487857873903}
   - {fileID: 60887289616407138}
+  - {fileID: 1098958759918395902}
+  - {fileID: 7692804652833793547}
   m_FreezeAxis: 0
   m_DistantDisable: 0
   m_ReferenceObject: {fileID: 0}
@@ -88704,6 +88706,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3742407836262125430}
   - component: {fileID: 1811241973}
+  - component: {fileID: 827075972821196077}
   m_Layer: 0
   m_Name: Hips
   m_TagString: Untagged
@@ -88711,6 +88714,86 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &827075972821196077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827075972821196076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9ac8d30c6a0d9642a11e5be4c440740, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Root: {fileID: 3742407836580737609}
+  m_UpdateRate: 50
+  m_UpdateMode: 0
+  m_Damping: 0.152
+  m_DampingDistrib:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_Elasticity: 0.041
+  m_ElasticityDistrib:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_Stiffness: 0.1
+  m_StiffnessDistrib:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_Inert: 0.541
+  m_InertDistrib:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_Friction: 0
+  m_FrictionDistrib:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_Radius: 0.06
+  m_RadiusDistrib:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_EndLength: 0
+  m_EndOffset: {x: 0, y: 0, z: 0}
+  m_Gravity: {x: 0, y: 0, z: 0}
+  m_Force: {x: 0, y: 0, z: 0}
+  m_Colliders:
+  - {fileID: 4098719597573927958}
+  - {fileID: 5085802258701346504}
+  - {fileID: 3762552065312184992}
+  - {fileID: 7936071744203149547}
+  - {fileID: 2124021954245124316}
+  - {fileID: 319740070583648368}
+  - {fileID: 6562562166122896897}
+  - {fileID: 4384922272516332112}
+  - {fileID: 7408905182220095569}
+  - {fileID: 7592553504129264835}
+  m_Exclusions:
+  - {fileID: 7604284636979320143}
+  - {fileID: 1317669487857873903}
+  - {fileID: 60887289616407138}
+  m_FreezeAxis: 0
+  m_DistantDisable: 0
+  m_ReferenceObject: {fileID: 0}
+  m_DistanceToObject: 20
 --- !u!1 &827075973039398931
 GameObject:
   m_ObjectHideFlags: 0
@@ -88721,6 +88804,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3742407836580737609}
   - component: {fileID: 1459087125}
+  - component: {fileID: 827075973039398932}
   m_Layer: 0
   m_Name: Hips
   m_TagString: Untagged
@@ -88728,6 +88812,86 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &827075973039398932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827075973039398931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9ac8d30c6a0d9642a11e5be4c440740, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Root: {fileID: 3742407836580737609}
+  m_UpdateRate: 50
+  m_UpdateMode: 0
+  m_Damping: 0.152
+  m_DampingDistrib:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_Elasticity: 0.041
+  m_ElasticityDistrib:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_Stiffness: 0.1
+  m_StiffnessDistrib:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_Inert: 0.541
+  m_InertDistrib:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_Friction: 0
+  m_FrictionDistrib:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_Radius: 0.06
+  m_RadiusDistrib:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_EndLength: 0
+  m_EndOffset: {x: 0, y: 0, z: 0}
+  m_Gravity: {x: 0, y: 0, z: 0}
+  m_Force: {x: 0, y: 0, z: 0}
+  m_Colliders:
+  - {fileID: 4098719597573927958}
+  - {fileID: 5085802258701346504}
+  - {fileID: 3762552065312184992}
+  - {fileID: 7936071744203149547}
+  - {fileID: 2124021954245124316}
+  - {fileID: 319740070583648368}
+  - {fileID: 6562562166122896897}
+  - {fileID: 4384922272516332112}
+  - {fileID: 7408905182220095569}
+  - {fileID: 7592553504129264835}
+  m_Exclusions:
+  - {fileID: 7604284636979320143}
+  - {fileID: 1317669487857873903}
+  - {fileID: 60887289616407138}
+  m_FreezeAxis: 0
+  m_DistantDisable: 0
+  m_ReferenceObject: {fileID: 0}
+  m_DistanceToObject: 20
 --- !u!1 &827075973235010001
 GameObject:
   m_ObjectHideFlags: 0
