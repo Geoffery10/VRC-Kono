@@ -10,3 +10,8 @@ A public variant of the Sakura VRChat avatar, designed for expressiveness in VRC
 - Android (Quest)  
 
 Explore the Kono avatar's features and customization options!  
+
+---
+
+**License**:  
+All Rights Reserved. This avatar and its assets are protected by standard copyright laws. Permission to use, modify, or distribute this work must be explicitly granted by the creator.  
